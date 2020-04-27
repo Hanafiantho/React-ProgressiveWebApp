@@ -11,7 +11,7 @@ There are several things that i do in this project :
       ```
 
 2.  Open your react folder on your code editor, and go to index.js
-3.  
+3.  Look at into the bottom of index.js and change **serviceWorkder.unregister()** into **serviceWorkder.register()**
 ### `npm start`
 
 Runs the app in the development mode.<br />
