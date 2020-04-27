@@ -10,7 +10,7 @@ There are several things that i do in this project :
 
 2.  Open your react folder on your code editor, and go to index.js
 3.  Look at into the bottom of index.js and change **serviceWorkder.unregister()** into **serviceWorkder.register()**
-      - We use service worker as a bridge or proxy between client side and server.
+      - Service worker is use as a bridge or proxy between client side and server.
       - When user first time access web page, user will make a request through Service Worker.
 	- Service Worker will check cache storage first, is the file exist or not.
 	- If the file isn’t exist, Service Worker will do a request into server and save downloaded file into cache storage.
