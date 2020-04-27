@@ -33,7 +33,12 @@ There are several things that i do in this project :
         "start-sw": "http-server ./build"
     },
     ```
- 
+
+6.  Build your project. Run this script on your terminal
+    ```
+    npm run build
+    ```
+
 
 ### `npm start`
 
