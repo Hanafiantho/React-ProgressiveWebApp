@@ -19,9 +19,9 @@ There are several things that i do in this project :
 	- Because assets and shell exist in cache storage, Service Worker will automatically send file from cache storage for displaying to user.
 
 4.  We only can test progressive web app after we build the project, and we have to install another npm package so we can test the app on production.
-```
-npm i http-server -D
-```
+    ```
+    npm i http-server -D
+    ```
  
  
 
