@@ -10,12 +10,10 @@ import FormGroup from "reactstrap/lib/FormGroup";
 import AvForm from "availity-reactstrap-validation/lib/AvForm";
 import AvGroup from "availity-reactstrap-validation/lib/AvGroup";
 import AvField from "availity-reactstrap-validation/lib/AvField";
-import AvCheckboxGroup from "availity-reactstrap-validation/lib/AvCheckboxGroup";
-import AvCheckbox from "availity-reactstrap-validation/lib/AvCheckbox";
 
 function LoginPageview(props) {
   return (
-      <Card className="w-75 mx-auto">
+      <Card className="w-75 mx-auto mt-5">
         <CardBody className="p-0 navy h-100">
           <Row className="h-100">
             <Col className="pr-0">
