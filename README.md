@@ -22,7 +22,17 @@ There are several things that i do in this project :
     ```
     npm i http-server -D
     ```
- 
+
+5.  Next, add start-sw to the scripts section of package.json:
+    ```
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "start-sw": "http-server ./build"
+    },
+    ```
  
 
 ### `npm start`
