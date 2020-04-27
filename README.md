@@ -1,6 +1,6 @@
 ## Simple Progressive Web App with React
 
-In this project i would like to implement a simple Progressive Web App on React App. Basically there are several points that i have to do to make the web fully a Progreesive Web App. In this project, point that i want to raise is how can make the web page can be accessed when the network is not really good even offline.
+In this project i would like to implement a simple Progressive Web App on React App. Basically there are several points that i have to do to make the web fully a Progreesive Web App. In this project, point that i want to raise is how can make the web page can be accessed when the network signal is low even offline.
 
 There are several things that i do in this project :
 1.  Create react App
@@ -17,6 +17,12 @@ There are several things that i do in this project :
 	- Now shell and assets are exist on cache storage.
 	- When user request the web page for the second time and so on, Service Worker will do the same thing as first time user                  access web page.
 	- Because assets and shell exist in cache storage, Service Worker will automatically send file from cache storage for displaying to user.
+
+4.  We only can test progressive web app after we build the project, and we have to install another npm package so we can test the app on production.
+```
+npm i http-server -D
+```
+ 
  
 
 ### `npm start`
