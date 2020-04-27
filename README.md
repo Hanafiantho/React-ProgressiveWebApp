@@ -39,6 +39,10 @@ There are several things that i do in this project :
     npm run build
     ```
 
+7.  Run your project
+    ```
+    npm run start-sw
+    ```
 
 ### `npm start`
 
