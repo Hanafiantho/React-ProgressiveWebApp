@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Simple Progressive Web App with React
 
 In this project i would like to implement a simple Progressive Web App on React App. Basically there are several points that i have to do to make the web fully a Progreesive Web App. In this project, point that i want to raise is how can make the web page can be accessed when the network is not really good even offline.
