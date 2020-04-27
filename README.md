@@ -5,11 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In this project i would like to implement a simple Progressive Web App on React App. Basically there are several points that i have to do to make the web fully a Progreesive Web App. In this project, point that i want to raise is how can make the web page can be accessed when the network is not really good even offline.
 
 There are several things that i do in this project :
-1.  Create react App with
+1.  Create react App
       ```
       npx create-react-app (name of your project)
       ```
 
+2.  Open your react folder on your code editor, and go to index.js
+3.  
 ### `npm start`
 
 Runs the app in the development mode.<br />
